@@ -7,6 +7,7 @@ background-color: #737373;
 font-size: 18px;
 margin: 0;
 padding: 0;
+position: relative;
 }
 
 h1{
@@ -49,11 +50,11 @@ z-index: 1;
 /*Your code here*/
 position: absolute;
 margin: -40px;
-display: none;
+visibility: hidden;
 }
 
 .skip a:focus {
-  display: inline-block;
+  visibility: visible;
   margin: 0;
 }
 
